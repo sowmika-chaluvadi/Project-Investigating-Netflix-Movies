@@ -1,23 +1,33 @@
-1. **Netflix**! What started in 1997 as a DVD rental service has since exploded into one of the largest entertainment and media companies.
-2. 
-3. Given the large number of movies and series available on the platform, it is a perfect opportunity to flex your exploratory data analysis skills and dive into the entertainment industry.
-4. 
-5. You work for a production company that specializes in nostalgic styles. You want to do some research on movies released in the 1990's. You'll delve into Netflix data and perform exploratory data analysis to better understand this awesome movie decade!
-6. 
-7. You have been supplied with the dataset `netflix_data.csv`, along with the following table detailing the column names and descriptions. Feel free to experiment further after submitting!
-8. 
-9. ## The data
-10. ### **netflix_data.csv**
-11. | Column | Description |
-12. |--------|-------------|
-13. | `show_id` | The ID of the show |
-14. | `type` | Type of show |
-15. | `title` | Title of the show |
-16. | `director` | Director of the show |
-17. | `cast` | Cast of the show |
-18. | `country` | Country of origin |
-19. | `date_added` | Date added to Netflix |
-20. | `release_year` | Year of Netflix release |
-21. | `duration` | Duration of the show in minutes |
-22. | `description` | Description of the show |
-23. | `genre` | Show genre |
+## Project Overview
+
+In this project, I performed exploratory data analysis (EDA) on Netflix movie data to gain insights into movies released during the 1990s. Using the `netflix_data.csv` dataset, I analyzed trends such as movie durations and explored the number of short action movies released in that decade.
+
+The project focuses on:
+- Filtering and analyzing movies from the 1990s
+- Identifying the most frequent movie duration
+- Counting short action movies (movies under 90 minutes)
+- Practicing data analysis using Python and pandas
+
+This analysis helped me strengthen my skills in:
+- Data cleaning and filtering
+- Boolean indexing in pandas
+- Exploratory data analysis (EDA)
+- Working with real-world datasets
+- Extracting insights from entertainment industry data
+## The data
+
+### `netflix_data.csv`
+
+| Column | Description |
+|--------|-------------|
+| `show_id` | The ID of the show |
+| `type` | Type of show |
+| `title` | Title of the show |
+| `director` | Director of the show |
+| `cast` | Cast of the show |
+| `country` | Country of origin |
+| `date_added` | Date added to Netflix |
+| `release_year` | Year of Netflix release |
+| `duration` | Duration of the show in minutes |
+| `description` | Description of the show |
+| `genre` | Show genre |
